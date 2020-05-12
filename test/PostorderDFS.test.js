@@ -13,7 +13,7 @@ describe('PostorderDFS', function() {
         g.addEdge(new Edge('C', 'D'));
 
         const ordering = new PostOrderDFS(g);
-        assert.deepEqual(ordering.postorder(), ['D', 'B', 'C', 'A']);
+        assert.deepEqual(ordering.traverse().postorder(), ['D', 'B', 'C', 'A']);
     });
 });
     describe('#constructor(General)', function() {
@@ -30,7 +30,7 @@ describe('PostorderDFS', function() {
             /* NB. DirectedGraph.vertices() will return vertices 
                    in lexographic order, so 'A' will be the start vertex 
              */
-            assert.deepEqual(ordering.postorder(), ['B','E', 'F', 'C', 'A']);
+            assert.deepEqual(ordering.traverse().postorder(), ['B','E', 'F', 'C', 'A']);
         });  
 
     });
@@ -47,7 +47,7 @@ describe('PostorderDFS', function() {
             const ordering = new PostOrderDFS(g);
 
       
-            assert.deepEqual(ordering.postorder(), ['B', 'C', 'A', 'E', 'F',]);
+            assert.deepEqual(ordering.traverse().postorder(), ['B', 'C', 'A', 'E', 'F',]);
         });  
 
     });
