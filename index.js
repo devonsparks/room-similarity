@@ -21,6 +21,44 @@ function update(ctx) {
             }
         }
     }).addTo(ctx.map);
+
+
+    class GeoJONRoom {
+        constructor(geojson) {
+            this.boundary = Path.fromArray(geojson.coordinates);
+            this.id = geojson.properties.name;
+        }
+
+        distanceTo(otherRoom) {
+            return haussdorff(this, otherRoom)
+        }
+    }
+
+    
+    function Components(GeoJSON, threshold) {
+
+        /* break out into new generic "Deserializer" object 
+        that gets passed in */
+        rooms = new Set([]);
+
+        for(feature of GeojSON) {
+            rooms.add(new GeoJSONRoom(feature));
+        }
+        /*** ***/
+
+        let graph = new DiGraph();
+        for(let [A, B] of pairwise(rooms, rooms)) {
+            const [AB, BA] = [A.distanceTo(B), B.distanceTo(A)];
+            
+            if(Math.min(AB, BA) > threshold) {
+              graph.addEdge(new Edge(A, B, AB));
+              graph.addEdge(new Edge(B, A, BA));
+            }
+        }
+
+ 
+        return graph.traverse().components();
+    }
 }
 
 
