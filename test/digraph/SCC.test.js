@@ -1,6 +1,6 @@
 const assert = require('assert');
-const {DirectedGraph, Edge} = require('../DirectedGraph')
-const SCC = require('../SCC');
+const {DirectedGraph, Edge} = require('../../digraph/DirectedGraph')
+const SCC = require('../../digraph/SCC');
 
 describe('SCC', function() {
 
@@ -32,9 +32,9 @@ describe('#components(General)', function() {
         const ordering = new SCC(g);
 
         assert.deepEqual(ordering.traverse().components(), 
-        new Set([new Set(['A', 'B', 'C']), new Set(['E']), new Set('F')]));
+           new Set([new Set(['A', 'B', 'C']), new Set(['E']), new Set('F')]));
 
-    });  
+    });
 
 });
 

@@ -1,6 +1,6 @@
 const assert = require('assert');
-const {DirectedGraph, Edge} = require('../DirectedGraph')
-const PostOrderDFS = require('../PostOrderDFS');
+const {DirectedGraph, Edge} = require('../../digraph/DirectedGraph')
+const PostOrderDFS = require('../../digraph/PostOrderDFS');
 
 describe('PostorderDFS', function() {
 

@@ -1,5 +1,5 @@
 const assert = require('assert');
-const {DirectedGraph, Edge} = require('../DirectedGraph')
+const {DirectedGraph, Edge} = require('../../digraph/DirectedGraph')
 
 describe('DirectedGraph', function() {
 

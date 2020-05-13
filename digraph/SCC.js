@@ -39,7 +39,6 @@ class SCC extends DFS {
     }
 
     components() {
-        this.traverse();
         return new Set(this.comps);
     }
 
