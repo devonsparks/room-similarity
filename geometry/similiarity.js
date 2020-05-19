@@ -1,9 +1,10 @@
 
-function haussdorff(A, B, dist) {
+function haussdorff(A, B, members, dist) {
     let h = 0;
-    for (let a of A) {
+
+    for (let a of members(A)) {
         let shortest = Infinity;
-        for (let b of B) {
+        for (let b of members(B)) {
             let Dij = dist(a, b);
             if (Dij < shortest) {
                 shortest = Dij;
@@ -19,8 +20,8 @@ function haussdorff(A, B, dist) {
 
 
 function* pairwise(A, B) {
-    for (let a in A) {
-        for (let b in B) {
+    for (let a of A) {
+        for (let b of B) {
             if (a != b) {
                 yield [a, b]
             }
@@ -29,13 +30,8 @@ function* pairwise(A, B) {
 }
 
 
-function distances(A, B) {
-    let dists = new Graph()
-    for (let pair of pairwise(A, B)) {
-        dists.edge(...pair.concat(hausdorff(...pair)))
-    }
-}
-
 function dist2(a, b) {
     return Math.sqrt(Math.pow(Math.abs(b[0] - a[0]), 2) + Math.pow(Math.abs(b[1] - a[1]), 2))
 }
+
+module.exports = {haussdorff, pairwise, dist2};

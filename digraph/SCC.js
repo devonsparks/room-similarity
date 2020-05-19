@@ -39,6 +39,8 @@ class SCC extends DFS {
     }
 
     components() {
+        console.log("inside SCC.components()");
+        console.log(this.comps);
         return new Set(this.comps);
     }
 
