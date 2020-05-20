@@ -8,10 +8,11 @@ const UF = require('./graph/UF');
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import SpacePlan from './components/spaceplan';
-  
+import GeoJSONAutoFit from './components/GeoJSONAutoFit';
+import * as clinicData from './samples/medic.floor1.rooms.json';
+
 const rootElement = document.getElementById("map-container");
-ReactDOM.render(<SpacePlan />, rootElement);  
+ReactDOM.render(<GeoJSONAutoFit geojson={clinicData} />, rootElement);  
 
 
 
