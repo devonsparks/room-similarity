@@ -8,5 +8,5 @@ import * as clinicData from './samples/medic.floor1.rooms.json';
 
 
 const rootElement = document.getElementById("map-container");
-ReactDOM.render(<SpaceClassifier geojson={clinicData} max="0.0005" />, rootElement);  
+ReactDOM.render(<SpaceClassifier geojson={clinicData} max="0.00005" />, rootElement);  
 

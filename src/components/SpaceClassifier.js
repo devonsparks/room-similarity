@@ -1,19 +1,28 @@
 import React, { Component } from "react";
 import GeoJSONAutoFit from './GeoJSONAutoFit';
 import ThresholdSlider from './ThresholdSlider';
-import UF from '../graph/UF';
-import {haussdorff, pairwise, dist2} from '../geometry/similiarity';
+import UF from '../utils/uf';
+import {haussdorff, pairwise, dist2, centroid} from '../utils/geometry';
+
 
 function iota(size) {
     return Array.from({ length: size }, (v, k) => k)
 }
 
 
-
 class GeoJSONRoom {
+
     constructor(geojson) {
         this.geojson = geojson;
+        
+        const loop = this.members();
+        const center = centroid(loop);
 
+        /* translate to origin */
+        for(let i in loop) {
+            const [x, y] = loop[i];
+            loop[i] = [x - center[0], y - center[1]];
+        }
     }
 
     members() {
@@ -32,11 +41,15 @@ class GeoJSONRoom {
         return this.geojson;
     }
 
+    centroid() {
+        this.members
+    }
 }
 
 
-function components(GeoJSON, threshold) {
 
+
+function components(GeoJSON, threshold) {
 
     const rooms = [];
 
@@ -59,22 +72,6 @@ function components(GeoJSON, threshold) {
     for (let Ri in rooms) {
         rooms[Ri].setComponent(partition.find(Ri));
     }
-    console.log("components have been set")
-    /* const graph = new DirectedGraph();
- 
-     for(let [A, B] of pairwise(rooms, rooms)) {
- 
-         const [AB, BA] = [A.distanceTo(B), B.distanceTo(A)];
-         
-         if(Math.min(AB, BA) > threshold) {
-  
-           graph.addEdge(new Edge(A, B, AB));
-           graph.addEdge(new Edge(B, A, BA));
-         }
-     }
- 
-     
-     return new SCC(graph).traverse().components()*/
 
      return GeoJSON;
 }
@@ -90,26 +87,23 @@ export default class SpaceClassifier extends Component {
     }
 
     thresholdChanged(event) {
-      
        const threshold = event.target.value;
        this.setState({ threshold });
 
     }
 
     updateRequested(event) {
-        console.log("update requested")
-
         this.setState({geojson: components(this.props.geojson, this.state.threshold) }); 
         event.preventDefault();
     }
 
     render() {
         return (<div>
-            <GeoJSONAutoFit geojson={this.state.geojson} />
-            <ThresholdSlider threshold={this.state.threshold} 
-                             max={this.props.max}
-                             onChange={this.thresholdChanged.bind(this)} 
-                             onSubmit={this.updateRequested.bind(this)} />
-        </div>);
+                <GeoJSONAutoFit geojson={this.state.geojson} />
+                <ThresholdSlider threshold={this.state.threshold} 
+                                max={this.props.max}
+                                onChange={this.thresholdChanged.bind(this)} 
+                                onSubmit={this.updateRequested.bind(this)} />
+                </div>);
     }
 }

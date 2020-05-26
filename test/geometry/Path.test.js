@@ -1,3 +1,4 @@
+/*
 const assert = require('assert');
 const Path = require('../../geometry/Path');
 const CartesianPoint = require('../../geometry/CartesianPoint');
@@ -52,3 +53,4 @@ describe('Path', function () {
 
 });
 
+*/

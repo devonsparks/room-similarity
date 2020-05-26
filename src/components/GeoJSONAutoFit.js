@@ -2,12 +2,6 @@ import React, { Component } from "react";
 import { Map as LeafletMap, GeoJSON } from "react-leaflet";
 
 
-function randomHexColor() {
-    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
-
-
-
 export default class GeoJSONAutoFit extends Component {
     constructor(props) {
         super(props);

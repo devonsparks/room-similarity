@@ -2,10 +2,10 @@
   "name": "room-similarity",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha --recursive",
-    "build": "browserify index.js -t [ babelify --presets [ @babel/preset-env @babel/preset-react ] --plugins [ @babel/plugin-proposal-class-properties ] ] | uglifyjs -c > dist.js"
+    "build": "browserify src/index.js -t [ babelify --presets [ @babel/preset-env @babel/preset-react ] --plugins [ @babel/plugin-proposal-class-properties ] ] | uglifyjs -c > dist.js"
   },
   "author": "Devon D. Sparks",
   "license": "ISC",
