@@ -9,6 +9,7 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 <style>
+
     .leaflet-container {
         height: 600px;
         width: 100%;
@@ -28,8 +29,8 @@
     .space-explorer {
         text-align: center;
         padding-top: 50px;
-        width:80%;
- 
+        width: 80%;
+
 
     }
 
@@ -92,13 +93,12 @@
 
     <section>
         <h2>Notes on the implementation</h2>
-        <p>It is worth exploring the implementation of these demos understand their assumptions and opportunities for
+        <p>It is worth exploring the implementation of these demos to understand their assumptions and opportunities for
             improvement.</p>
 
-        <p>The system stores each floor plan as a GeoJSON file, with every room or space as a GeoJSON feature. I opted
-            for GeoJSON because it’s simple to parse and integrates well with Leaflet, which renders the plans shown in
-            the demos. This means all floor plans are actually 2D maps rendered at a (semi)arbitrary location on Earth.
-            See the included script to see how I generated these floor plans directly from Autodesk Revit.</p>
+        <p>The system stores each floor plan as a GeoJSON file, with every room or space as a GeoJSON feature. All floor
+            plans are actually projected maps rendered at a (semi)arbitrary location on Earth. See the included script
+            to see how I generated these floor plans directly from Autodesk Revit.</p>
 
         <p>Here’s the heart of the classification algorithm:</p>
 
@@ -140,13 +140,16 @@
                 calculate unique groups.
             </li>
 
-            <li>For every pair of rooms, it computes the hausdorff distance between their boundary points. Because
-                the haussdorff distance provides a metric for the “similarity” between two sets, by letting the set
-                elements be room boundary coordinates, we gain a similarity measure between room boundaries.
+            <li>For every pair of rooms, computes the <a
+                    href="https://en.wikipedia.org/wiki/Hausdorff_distance">Hausdorff distance</a> between their
+                boundary points. Because the Hausdorff distance provides a metric for the “similarity” between two sets,
+                by letting the set elements be room boundary coordinates, we gain a similarity measure between room
+                boundaries.
             </li>
 
-            <li>By comparing each hausdorff distance against the specified threshold, we can use union-find to group
-                pairs of elements in constant time. The pairwise analysis of rooms has been sufficient for all testing
+            <li>If the Hausdorff distance is less than the provided threshold, the algorithm uses <a
+                    href="https://en.wikipedia.org/wiki/Disjoint-set_data_structure">union-find</a> to group pairs of
+                elements in constant time. The pairwise analysis of rooms has been sufficient for all testing
                 I’ve done to date, as most floor plans tested never included more than several hundred unique rooms.
             </li>
 
@@ -163,14 +166,14 @@
         <h2>Opportunities for improvement</h2>
 
         <p>First, notice how the constructor of GeoJSONRoom translates the room centroid to the origin. This ensures the
-            hausdorff distance is always calculated relative to the same fixed point. The core algorithm always "sees"
-            floor plans like this:</p>
+            Hausdorff distance is always calculated relative to the same fixed point. The core algorithm always "sees"
+            floor plans as a set of rooms aligned by their centroids:</p>
 
         <span><img src="docs/recenter.png" alt="rooms centered around origin"
                 style=' width: 100%; object-fit: contain' /></span>
-        <p>A cleaner approach might be to implement these translations as matrix transformations, so every function that
-            mutates the GeoJSON geometry can restore them before returning to its caller. I haven’t had a need for this
-            yet.</p>
+        <p>A cleaner approach might be to implement these translations as matrix transformations (represented by
+            Transformation objects), so every function that mutates the GeoJSON geometry can restore them before
+            returning to its caller. I haven’t had a need for this yet.</p>
 
         <p>Second, the current algorithm doesn’t apply affine transformation to room boundaries when computing the
             similarity metric. This means two rooms with the same shape and size but different orientations may be

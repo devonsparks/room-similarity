@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+
 import GeoJSONAutoFit from './GeoJSONAutoFit';
 import ThresholdSlider from './ThresholdSlider';
-//import UF from '../core/uf';
+
 import {iota} from '../core/utils';
 import { randomrgb } from "../core/color";
 import { components } from '../core/geometry';
@@ -12,12 +13,11 @@ export default class SpaceClassifier extends Component {
         super(props);
 
         const features = this.props.geojson.features.length;
-        //this.uf = new UF(features);
 
         this.state = {
             threshold: this.props.max,  /* the cutoff for haussdorff inclusion */
-            features,                   /* count of features in geojson        */
-            partitions: 1,              /* current partition count             */
+            features,                       /* count of features in geojson        */
+            partitions: 1,                  /* current partition count             */
             geojson: this.props.geojson,
             colormap: iota(features).map(randomrgb)
         };
