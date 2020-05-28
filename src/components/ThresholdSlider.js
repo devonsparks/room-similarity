@@ -1,18 +1,16 @@
 import React, { Component } from "react";
 
 
-
 export default class ThresholdSlider extends Component {
   
     render() {
       return (
-        <form onSubmit={this.props.onSubmit}>
+        <form>
           <label>
-            Threshold:
-            <input className="slider" type="range" min="0" max={this.props.max} step={this.props.max/100.0} value={this.props.threshold} onChange={this.props.onChange}></input>
+            <input className="slider" type="range" min="0" max={this.props.max} step={this.props.max/500.0} value={this.props.threshold} 
+                   onChange={this.props.onChange} onMouseUp={this.props.onSubmit} onTouchEnd={this.props.onSubmit}></input>
           </label>
-          <span>{this.props.threshold}</span>
-          <input type="submit" value="Submit" />
+          <div className="status">{this.props.features} spaces classified into {this.props.partitions} unique {this.props.partitions > 1 ? 'groups' : 'group' }</div>
         </form>
       );
     }

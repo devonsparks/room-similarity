@@ -9,10 +9,8 @@
 	"features": [{
 			"properties": {
 				"number": "1AC1",
-				"center:longitude": 0.00089681251383721093,
 				"name": "CENTRAL WAITING",
-				"level": "First Floor",
-				"center:latitude": -0.0002949475971722653
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -22,10 +20,8 @@
 		}, {
 			"properties": {
 				"number": "1AC2",
-				"center:longitude": 0.0011399651296892415,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00052381004595524383
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -35,10 +31,8 @@
 		}, {
 			"properties": {
 				"number": "1AC3",
-				"center:longitude": 0.0013608861422798133,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00057827826073219191
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -48,10 +42,8 @@
 		}, {
 			"properties": {
 				"number": "1AC4",
-				"center:longitude": 0.0012734343974434912,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00045623403315067239
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -61,10 +53,8 @@
 		}, {
 			"properties": {
 				"number": "1AC5",
-				"center:longitude": 0.0012520087466283204,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00010834598820131812
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -74,10 +64,8 @@
 		}, {
 			"properties": {
 				"number": "1A01",
-				"center:longitude": 0.0011238165484628985,
 				"name": "PATIENT ADMIN. RECEPT.",
-				"level": "First Floor",
-				"center:latitude": -0.00017432780935388147
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -87,10 +75,8 @@
 		}, {
 			"properties": {
 				"number": "1A02",
-				"center:longitude": 0.0011645570017919978,
 				"name": "RMO ANALYST",
-				"level": "First Floor",
-				"center:latitude": -4.1234947961915886e-05
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -100,10 +86,8 @@
 		}, {
 			"properties": {
 				"number": "1A03",
-				"center:longitude": 0.0012619798249702795,
 				"name": "TRICARE OFFICE",
-				"level": "First Floor",
-				"center:latitude": -0.00017432780935388128
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -113,10 +97,8 @@
 		}, {
 			"properties": {
 				"number": "1A04",
-				"center:longitude": 0.0013441987833192229,
 				"name": "TRICARE OFFICE",
-				"level": "First Floor",
-				"center:latitude": -4.0319763865392358e-05
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -126,10 +108,8 @@
 		}, {
 			"properties": {
 				"number": "1A05",
-				"center:longitude": 0.0013493651451544351,
 				"name": "TRICARE OFFICE",
-				"level": "First Floor",
-				"center:latitude": -0.00017432780935388112
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -139,10 +119,8 @@
 		}, {
 			"properties": {
 				"number": "1A06",
-				"center:longitude": 0.0014369645003289059,
 				"name": "TRICARE OFFICE",
-				"level": "First Floor",
-				"center:latitude": -4.0319763865392243e-05
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -152,10 +130,8 @@
 		}, {
 			"properties": {
 				"number": "1A07",
-				"center:longitude": 0.001439916707091884,
 				"name": "TRICARE OFFICE",
-				"level": "First Floor",
-				"center:latitude": -0.00017432780935388101
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -165,10 +141,8 @@
 		}, {
 			"properties": {
 				"number": "1A08",
-				"center:longitude": 0.001442647498347639,
 				"name": "PHARM. OFFICE",
-				"level": "First Floor",
-				"center:latitude": -0.00036930630501477875
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -178,10 +152,8 @@
 		}, {
 			"properties": {
 				"number": "1A09",
-				"center:longitude": 0.0014388834347248414,
 				"name": "W. TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.00048141635683887597
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -191,10 +163,8 @@
 		}, {
 			"properties": {
 				"number": "1A10",
-				"center:longitude": 0.0013498817813379564,
 				"name": "LOUNGE",
-				"level": "First Floor",
-				"center:latitude": -0.00037358700482109658
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -204,10 +174,8 @@
 		}, {
 			"properties": {
 				"number": "1A11",
-				"center:longitude": 0.0013699567873262087,
 				"name": "JAN.",
-				"level": "First Floor",
-				"center:latitude": -0.00033197565049691846
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -217,10 +185,8 @@
 		}, {
 			"properties": {
 				"number": "1A12",
-				"center:longitude": 0.0013461177177151579,
 				"name": "M. TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.00048141635683887597
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -230,10 +196,8 @@
 		}, {
 			"properties": {
 				"number": "1A13",
-				"center:longitude": 0.0012183757413139471,
 				"name": "STAFF TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.00041549357982157271
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -243,10 +207,8 @@
 		}, {
 			"properties": {
 				"number": "1A14",
-				"center:longitude": 0.0011507701962088894,
 				"name": "SUPER / NCOIC",
-				"level": "First Floor",
-				"center:latitude": -0.00041062243866265874
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -256,10 +218,8 @@
 		}, {
 			"properties": {
 				"number": "1A15",
-				"center:longitude": 0.0010748394382650895,
 				"name": "COUNSELING",
-				"level": "First Floor",
-				"center:latitude": -0.00041153762275918207
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -269,10 +229,8 @@
 		}, {
 			"properties": {
 				"number": "1DC1",
-				"center:longitude": 0.00095078032956783843,
 				"name": "WAITING / ACTIVITY AREA",
-				"level": "First Floor",
-				"center:latitude": -0.0010125478755662861
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -282,10 +240,8 @@
 		}, {
 			"properties": {
 				"number": "1DC2",
-				"center:longitude": 0.0010977485627458013,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00074469415596127499
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -295,10 +251,8 @@
 		}, {
 			"properties": {
 				"number": "1DC3",
-				"center:longitude": 0.0011655164624682986,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00090098398199334228
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -308,10 +262,8 @@
 		}, {
 			"properties": {
 				"number": "1DC4",
-				"center:longitude": 0.0011996218376192733,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.0011680848888737971
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -321,10 +273,8 @@
 		}, {
 			"properties": {
 				"number": "1CC1",
-				"center:longitude": 0.0014047559245448137,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00090917635576060656
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -334,10 +284,8 @@
 		}, {
 			"properties": {
 				"number": "1CC2",
-				"center:longitude": 0.0015382266684024401,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00090765596927767467
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -347,10 +295,8 @@
 		}, {
 			"properties": {
 				"number": "1CC3",
-				"center:longitude": 0.0015540637815824369,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.0011538404912424267
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -360,10 +306,8 @@
 		}, {
 			"properties": {
 				"number": "1C01",
-				"center:longitude": 0.0013715657400120308,
 				"name": "WAITING",
-				"level": "First Floor",
-				"center:latitude": -0.0010909584871909917
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -373,10 +317,8 @@
 		}, {
 			"properties": {
 				"number": "1C02",
-				"center:longitude": 0.0013706505559155072,
 				"name": "RECEPTION",
-				"level": "First Floor",
-				"center:latitude": -0.00099639930457280038
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -386,10 +328,8 @@
 		}, {
 			"properties": {
 				"number": "1C03",
-				"center:longitude": 0.0013729827992582594,
 				"name": "JAN. CL.",
-				"level": "First Floor",
-				"center:latitude": -0.00093398965360344023
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -399,10 +339,8 @@
 		}, {
 			"properties": {
 				"number": "1C04",
-				"center:longitude": 0.0015155743859101086,
 				"name": "FITTING / DISP.",
-				"level": "First Floor",
-				"center:latitude": -0.00082693525586094202
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -412,10 +350,8 @@
 		}, {
 			"properties": {
 				"number": "1C05",
-				"center:longitude": 0.0016109970890064711,
 				"name": "VISUAL FIELD",
-				"level": "First Floor",
-				"center:latitude": -0.0008269352558609417
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -425,10 +361,8 @@
 		}, {
 			"properties": {
 				"number": "1C06",
-				"center:longitude": 0.0016345645555953265,
 				"name": "SOIL. UTL. / TRASH",
-				"level": "First Floor",
-				"center:latitude": -0.0008956109656847234
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -438,10 +372,8 @@
 		}, {
 			"properties": {
 				"number": "1C07",
-				"center:longitude": 0.0013706398102245674,
 				"name": "OPT. EXAM / OFF.",
-				"level": "First Floor",
-				"center:latitude": -0.00069729647638165984
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -451,10 +383,8 @@
 		}, {
 			"properties": {
 				"number": "1C08",
-				"center:longitude": 0.0015130650101615772,
 				"name": "SCREEN EYE TEST",
-				"level": "First Floor",
-				"center:latitude": -0.00099400801709478718
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -464,10 +394,8 @@
 		}, {
 			"properties": {
 				"number": "1C09",
-				"center:longitude": 0.0016084877132579401,
 				"name": "FUNDUS CAMERA ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00099400801709478718
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -477,10 +405,8 @@
 		}, {
 			"properties": {
 				"number": "1C10",
-				"center:longitude": 0.0013706505559155065,
 				"name": "OPT. EXAM / OFF.",
-				"level": "First Floor",
-				"center:latitude": -0.00080483060772314197
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -490,10 +416,8 @@
 		}, {
 			"properties": {
 				"number": "1D01",
-				"center:longitude": 0.0010582118444081104,
 				"name": "SL. LIN. / TRASH",
-				"level": "First Floor",
-				"center:latitude": -0.00078785541883601693
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -503,10 +427,8 @@
 		}, {
 			"properties": {
 				"number": "1D02",
-				"center:longitude": 0.0010800353221679321,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.00065739740198000895
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -516,10 +438,8 @@
 		}, {
 			"properties": {
 				"number": "1D03",
-				"center:longitude": 0.0011179416570045724,
 				"name": "CLEAN U.",
-				"level": "First Floor",
-				"center:latitude": -0.00078694023473949366
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -529,10 +449,8 @@
 		}, {
 			"properties": {
 				"number": "1D04",
-				"center:longitude": 0.0011655312300237822,
 				"name": "TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.00062853958087189649
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -542,10 +460,8 @@
 		}, {
 			"properties": {
 				"number": "1D05",
-				"center:longitude": 0.0012624222332391544,
 				"name": "TRMT RM. DIRTY PROC.",
-				"level": "First Floor",
-				"center:latitude": -0.00064970690336245017
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -555,10 +471,8 @@
 		}, {
 			"properties": {
 				"number": "1D06",
-				"center:longitude": 0.0012619060198012064,
 				"name": "SCOPE WASH / DECON.",
-				"level": "First Floor",
-				"center:latitude": -0.00073406621161455337
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -568,10 +482,8 @@
 		}, {
 			"properties": {
 				"number": "1D07",
-				"center:longitude": 0.0012619207808350205,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.00081371675007970595
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -581,10 +493,8 @@
 		}, {
 			"properties": {
 				"number": "1D08",
-				"center:longitude": 0.0010883243533904878,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.00085073742288745298
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -594,10 +504,8 @@
 		}, {
 			"properties": {
 				"number": "1D09",
-				"center:longitude": 0.0012619207808350205,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.00090730170446611555
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -607,10 +515,8 @@
 		}, {
 			"properties": {
 				"number": "1D10",
-				"center:longitude": 0.001088324353390488,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.00094432237727386258
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -620,10 +526,8 @@
 		}, {
 			"properties": {
 				"number": "1D11",
-				"center:longitude": 0.0012619207808350213,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.0010008866588525254
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -633,10 +537,8 @@
 		}, {
 			"properties": {
 				"number": "1D12",
-				"center:longitude": 0.0010883243533904882,
 				"name": "SPECIMEN COLL. LAB",
-				"level": "First Floor",
-				"center:latitude": -0.0010286078803568911
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -646,10 +548,8 @@
 		}, {
 			"properties": {
 				"number": "1D13",
-				"center:longitude": 0.0012619207808350216,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.001094471613238935
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -659,10 +559,8 @@
 		}, {
 			"properties": {
 				"number": "1D14",
-				"center:longitude": 0.0011177054804635351,
 				"name": "SPECIMEN TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.0011002284164267427
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -672,10 +570,8 @@
 		}, {
 			"properties": {
 				"number": "1D15",
-				"center:longitude": 0.0010579756678670729,
 				"name": "WTS & MEAS. ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.0011036824983394269
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -685,10 +581,8 @@
 		}, {
 			"properties": {
 				"number": "1D16",
-				"center:longitude": 0.0012276751823844722,
 				"name": "PROVIDER CUBICLES",
-				"level": "First Floor",
-				"center:latitude": -0.0013671890934859562
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -698,10 +592,8 @@
 		}, {
 			"properties": {
 				"number": "1D17",
-				"center:longitude": 0.0011887562406281285,
 				"name": "JAN. CL.",
-				"level": "First Floor",
-				"center:latitude": -0.0012202621912026732
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -711,10 +603,8 @@
 		}, {
 			"properties": {
 				"number": "1D18",
-				"center:longitude": 0.0011447093157244946,
 				"name": "TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.0012358380340841474
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -724,10 +614,8 @@
 		}, {
 			"properties": {
 				"number": "1D19",
-				"center:longitude": 0.001059606051368122,
 				"name": "MDIS VIEW",
-				"level": "First Floor",
-				"center:latitude": -0.0012358380340841474
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -737,10 +625,8 @@
 		}, {
 			"properties": {
 				"number": "1D20",
-				"center:longitude": 0.0010806552855881562,
 				"name": "APPMTS",
-				"level": "First Floor",
-				"center:latitude": -0.001326131277929836
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -750,10 +636,8 @@
 		}, {
 			"properties": {
 				"number": "1D21",
-				"center:longitude": 0.0010806552855881567,
 				"name": "GROUP IS",
-				"level": "First Floor",
-				"center:latitude": -0.0014574823373316452
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -763,10 +647,8 @@
 		}, {
 			"properties": {
 				"number": "1D22",
-				"center:longitude": 0.00093570193352592685,
 				"name": "TEAM INTERACTION",
-				"level": "First Floor",
-				"center:latitude": -0.001478605374723901
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -776,10 +658,8 @@
 		}, {
 			"properties": {
 				"number": "1D23",
-				"center:longitude": 0.00079074858146369704,
 				"name": "GROUP IS",
-				"level": "First Floor",
-				"center:latitude": -0.0014574823373316454
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -789,10 +669,8 @@
 		}, {
 			"properties": {
 				"number": "1D24",
-				"center:longitude": 0.00079074858146369672,
 				"name": "RECORDS",
-				"level": "First Floor",
-				"center:latitude": -0.001326131277929836
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -802,10 +680,8 @@
 		}, {
 			"properties": {
 				"number": "1D25",
-				"center:longitude": 0.00064372868466738072,
 				"name": "PROVIDER CUBICLES",
-				"level": "First Floor",
-				"center:latitude": -0.0013674400310608099
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -815,10 +691,8 @@
 		}, {
 			"properties": {
 				"number": "1D26",
-				"center:longitude": 0.000691908699039186,
 				"name": "TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.0012360889716590004
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -828,10 +702,8 @@
 		}, {
 			"properties": {
 				"number": "1D27",
-				"center:longitude": 0.00078448990312618211,
 				"name": "ADMIN WORK STATN.",
-				"level": "First Floor",
-				"center:latitude": -0.0012360889716590002
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -841,10 +713,8 @@
 		}, {
 			"properties": {
 				"number": "1D28",
-				"center:longitude": 0.00060948308621683463,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.0010949734883886418
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -854,10 +724,8 @@
 		}, {
 			"properties": {
 				"number": "1D30",
-				"center:longitude": 0.000783072843879953,
 				"name": "WTS & MEAS. ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.0011074613229960391
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -867,10 +735,8 @@
 		}, {
 			"properties": {
 				"number": "1D31",
-				"center:longitude": 0.00078307284387995279,
 				"name": "PEDIATRIC WTS & MSRS",
-				"level": "First Floor",
-				"center:latitude": -0.001032386705013503
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -880,10 +746,8 @@
 		}, {
 			"properties": {
 				"number": "1D32",
-				"center:longitude": 0.00060948308621683431,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.0010018904091519381
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -893,10 +757,8 @@
 		}, {
 			"properties": {
 				"number": "1D33",
-				"center:longitude": 0.00078307284387995246,
 				"name": "PEDIATRIC WAITING",
-				"level": "First Floor",
-				"center:latitude": -0.00094432237727386258
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -906,10 +768,8 @@
 		}, {
 			"properties": {
 				"number": "1D34",
-				"center:longitude": 0.00060948308621683398,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.00090830545476552817
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -919,10 +779,8 @@
 		}, {
 			"properties": {
 				"number": "1D35",
-				"center:longitude": 0.00078307284387995224,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.00085073741917880978
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -932,10 +790,8 @@
 		}, {
 			"properties": {
 				"number": "1D36",
-				"center:longitude": 0.00060948308621683377,
 				"name": "INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.00081472050037911857
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -945,10 +801,8 @@
 		}, {
 			"properties": {
 				"number": "1D37",
-				"center:longitude": 0.00075346221004728088,
 				"name": "CLEAN U.",
-				"level": "First Floor",
-				"center:latitude": -0.00078694023103085045
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -958,10 +812,8 @@
 		}, {
 			"properties": {
 				"number": "1D38",
-				"center:longitude": 0.00060948308621683323,
 				"name": "TRMT ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00068306683978410518
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -971,10 +823,8 @@
 		}, {
 			"properties": {
 				"number": "1D39",
-				"center:longitude": 0.00081318535286233084,
 				"name": "JAN. CL.",
-				"level": "First Floor",
-				"center:latitude": -0.00078785541512737373
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -984,10 +834,8 @@
 		}, {
 			"properties": {
 				"number": "1D40",
-				"center:longitude": 0.00075136614324556586,
 				"name": "IMMUNIZ'N ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00065739740198000982
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -997,10 +845,8 @@
 		}, {
 			"properties": {
 				"number": "1DC5",
-				"center:longitude": 0.00079128588309455752,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.0011683358264486503
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1010,10 +856,8 @@
 		}, {
 			"properties": {
 				"number": "1DC6",
-				"center:longitude": 0.0006162495441175785,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.0011683358264486506
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1023,10 +867,8 @@
 		}, {
 			"properties": {
 				"number": "1DC7",
-				"center:longitude": 0.00071022714200346412,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.0009009839819933426
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1036,10 +878,8 @@
 		}, {
 			"properties": {
 				"number": "1DC8",
-				"center:longitude": 0.00077365530430605122,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00074469415596127553
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1049,10 +889,8 @@
 		}, {
 			"properties": {
 				"number": "1C12",
-				"center:longitude": 0.0016118458484508285,
 				"name": "TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.0012261326543508567
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1062,10 +900,8 @@
 		}, {
 			"properties": {
 				"number": "1C13",
-				"center:longitude": 0.0013865629503679608,
 				"name": "COMM. ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.0012357494678812578
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1075,10 +911,8 @@
 		}, {
 			"properties": {
 				"number": "1C14",
-				"center:longitude": 0.0016176395542231727,
 				"name": "HIST. / INTV.",
-				"level": "First Floor",
-				"center:latitude": -0.0012974063061260588
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1088,10 +922,8 @@
 		}, {
 			"properties": {
 				"number": "1C15",
-				"center:longitude": 0.001386562950367961,
 				"name": "PES ADMIN. OFFICE",
-				"level": "First Floor",
-				"center:latitude": -0.0013290687236589983
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1101,10 +933,8 @@
 		}, {
 			"properties": {
 				"number": "1C16",
-				"center:longitude": 0.0016176395542231731,
 				"name": "ECG TEST",
-				"level": "First Floor",
-				"center:latitude": -0.0013825774712379806
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1114,10 +944,8 @@
 		}, {
 			"properties": {
 				"number": "1C17",
-				"center:longitude": 0.0013664289002444489,
 				"name": "CHIEF AERO MED.",
-				"level": "First Floor",
-				"center:latitude": -0.0014895875858790323
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1127,10 +955,8 @@
 		}, {
 			"properties": {
 				"number": "1C18",
-				"center:longitude": 0.0014466403579945675,
 				"name": "PHYSICAL EXAM",
-				"level": "First Floor",
-				"center:latitude": -0.0013671890934859557
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1140,10 +966,8 @@
 		}, {
 			"properties": {
 				"number": "1C19",
-				"center:longitude": 0.0016176395542231731,
 				"name": "AUDIO",
-				"level": "First Floor",
-				"center:latitude": -0.0014846426395510449
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1153,10 +977,8 @@
 		}, {
 			"properties": {
 				"number": "1C11",
-				"center:longitude": 0.0015779080379335257,
 				"name": "ELEC. CL.",
-				"level": "First Floor",
-				"center:latitude": -0.001134828281796564
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1166,10 +988,8 @@
 		}, {
 			"properties": {
 				"number": "1CS3",
-				"center:longitude": 0.0015693193152321039,
 				"name": "STAIR",
-				"level": "First Floor",
-				"center:latitude": -0.0010908404010281883
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1179,10 +999,8 @@
 		}, {
 			"properties": {
 				"number": "1E01",
-				"center:longitude": 0.00040406853964880719,
 				"name": "HK EQUIP. STORAGE",
-				"level": "First Floor",
-				"center:latitude": -0.00063088658524846492
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1192,10 +1010,8 @@
 		}, {
 			"properties": {
 				"number": "1E02",
-				"center:longitude": 0.00048097352582439134,
 				"name": "ELEV. EQUIP.",
-				"level": "First Floor",
-				"center:latitude": -0.00063088658524846492
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1205,10 +1021,8 @@
 		}, {
 			"properties": {
 				"number": "1E03",
-				"center:longitude": 0.00052953732707538398,
 				"name": "JAN. CL.",
-				"level": "First Floor",
-				"center:latitude": -0.00063088658524846481
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1218,10 +1032,8 @@
 		}, {
 			"properties": {
 				"number": "1E04",
-				"center:longitude": 0.00040356666449910077,
 				"name": "HK BREAK ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00071865569231180674
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1231,10 +1043,8 @@
 		}, {
 			"properties": {
 				"number": "1E05",
-				"center:longitude": 0.00050069426700108583,
 				"name": "CHIEF LOG OFFICE",
-				"level": "First Floor",
-				"center:latitude": -0.00071865569231180653
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1244,10 +1054,8 @@
 		}, {
 			"properties": {
 				"number": "1E06",
-				"center:longitude": 0.00045263234089980048,
 				"name": "TECH. WORK STATION",
-				"level": "First Floor",
-				"center:latitude": -0.000846840509960321
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1257,10 +1065,8 @@
 		}, {
 			"properties": {
 				"number": "1E07",
-				"center:longitude": 0.00040784736430541919,
 				"name": "CONF. LIBRARY",
-				"level": "First Floor",
-				"center:latitude": -0.00097930602741515466
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1270,10 +1076,8 @@
 		}, {
 			"properties": {
 				"number": "1E08",
-				"center:longitude": 0.00050497496680740426,
 				"name": "SUPER",
-				"level": "First Floor",
-				"center:latitude": -0.00097930602741515445
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1283,10 +1087,8 @@
 		}, {
 			"properties": {
 				"number": "1E09",
-				"center:longitude": 0.00039662897860610175,
 				"name": "W. TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.0010545430167696545
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1296,10 +1098,8 @@
 		}, {
 			"properties": {
 				"number": "1E10",
-				"center:longitude": 0.00039662897860610191,
 				"name": "M. TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.0011144432919904833
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1309,10 +1109,8 @@
 		}, {
 			"properties": {
 				"number": "1E11",
-				"center:longitude": 0.00049375658110808681,
 				"name": "STAFF LOUNGE",
-				"level": "First Floor",
-				"center:latitude": -0.0010844931543800692
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1322,10 +1120,8 @@
 		}, {
 			"properties": {
 				"number": "1E12",
-				"center:longitude": 0.00038437732053974143,
 				"name": "ISOLATION TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.0012350409382581435
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1335,10 +1131,8 @@
 		}, {
 			"properties": {
 				"number": "1E14",
-				"center:longitude": 0.00045213046575009249,
 				"name": "DISASTER STOR.",
-				"level": "First Floor",
-				"center:latitude": -0.0013321537797263106
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1348,10 +1142,8 @@
 		}, {
 			"properties": {
 				"number": "1E15",
-				"center:longitude": 0.00045103076873088407,
 				"name": "CENTRAL MECH. RM.",
-				"level": "First Floor",
-				"center:latitude": -0.0014659846928090226
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1361,10 +1153,8 @@
 		}, {
 			"properties": {
 				"number": "1E16",
-				"center:longitude": 0.00014834838983963372,
 				"name": "BMET WORK STATION",
-				"level": "First Floor",
-				"center:latitude": -0.0014658370824708747
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1374,10 +1164,8 @@
 		}, {
 			"properties": {
 				"number": "1E17",
-				"center:longitude": 3.5891453720885738e-05,
 				"name": "HAZ. STOR.",
-				"level": "First Floor",
-				"center:latitude": -0.0013482506871014515
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1387,10 +1175,8 @@
 		}, {
 			"properties": {
 				"number": "1E18",
-				"center:longitude": 0.0001465180216465861,
 				"name": "BIOMED MAINT. ADMIN.",
-				"level": "First Floor",
-				"center:latitude": -0.0013482506871014513
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1400,10 +1186,8 @@
 		}, {
 			"properties": {
 				"number": "1E19",
-				"center:longitude": 0.00025791954384756898,
 				"name": "ELEC. ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.0013493061010192158
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1413,10 +1197,8 @@
 		}, {
 			"properties": {
 				"number": "1E20",
-				"center:longitude": 3.3736342783911977e-05,
 				"name": "TRASH",
-				"level": "First Floor",
-				"center:latitude": -0.0011841876898614917
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1426,10 +1208,8 @@
 		}, {
 			"properties": {
 				"number": "1E21",
-				"center:longitude": 0.00012384507370691376,
 				"name": "FLAMABLE STORAGE",
-				"level": "First Floor",
-				"center:latitude": -0.0012120270104373477
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1439,10 +1219,8 @@
 		}, {
 			"properties": {
 				"number": "1E22",
-				"center:longitude": 0.0001238450737069136,
 				"name": "SEC. STORAGE",
-				"level": "First Floor",
-				"center:latitude": -0.0011590481731713512
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1452,10 +1230,8 @@
 		}, {
 			"properties": {
 				"number": "1E23",
-				"center:longitude": 0.0002651376893830503,
 				"name": "BEE EQUIP. STORAGE",
-				"level": "First Floor",
-				"center:latitude": -0.0011852431037792563
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1465,10 +1241,8 @@
 		}, {
 			"properties": {
 				"number": "1E24",
-				"center:longitude": 0.00014729297592186761,
 				"name": "RECEIVING / STORAGE",
-				"level": "First Floor",
-				"center:latitude": -0.00095569427772485471
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1478,10 +1252,8 @@
 		}, {
 			"properties": {
 				"number": "1E25",
-				"center:longitude": 0.00023908446469976711,
 				"name": "ADP EQUIP SPACE",
-				"level": "First Floor",
-				"center:latitude": -0.00075739454945560796
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1491,10 +1263,8 @@
 		}, {
 			"properties": {
 				"number": "1E26",
-				"center:longitude": 0.00013010375204442748,
 				"name": "WORK ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00067790785846580175
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1504,10 +1274,8 @@
 		}, {
 			"properties": {
 				"number": "1E27",
-				"center:longitude": 3.8312263266527226e-05,
 				"name": "BENCHSTOCK STORAGE",
-				"level": "First Floor",
-				"center:latitude": -0.00072541624579902859
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1517,10 +1285,8 @@
 		}, {
 			"properties": {
 				"number": "1E28",
-				"center:longitude": 3.8312263266526955e-05,
 				"name": "FAC. MGR. OFFICE",
-				"level": "First Floor",
-				"center:latitude": -0.00063244387431593736
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1530,10 +1296,8 @@
 		}, {
 			"properties": {
 				"number": "1E29",
-				"center:longitude": 0.00023908446469976671,
 				"name": "HK. SUPV. OFFICE",
-				"level": "First Floor",
-				"center:latitude": -0.00062382343056804023
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1543,10 +1307,8 @@
 		}, {
 			"properties": {
 				"number": "1E30",
-				"center:longitude": 0.00020067625471342142,
 				"name": "SOIL. LIN.",
-				"level": "First Floor",
-				"center:latitude": -0.0011852431037792563
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1556,10 +1318,8 @@
 		}, {
 			"properties": {
 				"number": "1E33",
-				"center:longitude": 0.00048100304789201894,
 				"name": "ISOLATION INTERACTION STATION",
-				"level": "First Floor",
-				"center:latitude": -0.0012385688253399023
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1569,10 +1329,8 @@
 		}, {
 			"properties": {
 				"number": "1EC1",
-				"center:longitude": 0.00032868393995615661,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.0010638941316913888
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1582,10 +1340,8 @@
 		}, {
 			"properties": {
 				"number": "1EC2",
-				"center:longitude": 0.00023999964879629017,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00068978311016988051
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1595,10 +1351,8 @@
 		}, {
 			"properties": {
 				"number": "1EC3",
-				"center:longitude": 0.00042411402356942924,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.001168335826448651
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1608,10 +1362,8 @@
 		}, {
 			"properties": {
 				"number": "1EC4",
-				"center:longitude": 0.00023726147702362877,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.0012727701425012225
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1621,10 +1373,8 @@
 		}, {
 			"properties": {
 				"number": "1BC1",
-				"center:longitude": 0.00076845942040321016,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -8.3103882326161386e-05
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1634,10 +1384,8 @@
 		}, {
 			"properties": {
 				"number": "1BC2",
-				"center:longitude": 0.00059486966274008843,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00023425686859064672
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1647,10 +1395,8 @@
 		}, {
 			"properties": {
 				"number": "1BC3",
-				"center:longitude": 0.00040253339213205681,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00038242849505036949
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1660,10 +1406,8 @@
 		}, {
 			"properties": {
 				"number": "1BC4",
-				"center:longitude": 0.00052459090464401347,
 				"name": "CORRIDOR",
-				"level": "First Floor",
-				"center:latitude": -0.00053567791714241662
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1673,10 +1417,8 @@
 		}, {
 			"properties": {
 				"number": "1B01",
-				"center:longitude": 0.00080521439460228862,
 				"name": "RECEPTION",
-				"level": "First Floor",
-				"center:latitude": -0.00016606089236584961
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1686,10 +1428,8 @@
 		}, {
 			"properties": {
 				"number": "1B02",
-				"center:longitude": 0.00079192946416888749,
 				"name": "SPECIMEN TOILET",
-				"level": "First Floor",
-				"center:latitude": -2.4377478319464163e-05
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1699,10 +1439,8 @@
 		}, {
 			"properties": {
 				"number": "1B03",
-				"center:longitude": 0.00072954933526715737,
 				"name": "BLOOD DRAW",
-				"level": "First Floor",
-				"center:latitude": -0.00016606089236584966
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1712,10 +1450,8 @@
 		}, {
 			"properties": {
 				"number": "1B04",
-				"center:longitude": 0.00058152568817142777,
 				"name": "LAB",
-				"level": "First Floor",
-				"center:latitude": -9.2573454544261533e-05
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1725,10 +1461,8 @@
 		}, {
 			"properties": {
 				"number": "1B05",
-				"center:longitude": 0.0006632132493030365,
 				"name": "PAT. / STAFF TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.00018501405978417035
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1738,10 +1472,8 @@
 		}, {
 			"properties": {
 				"number": "1B06",
-				"center:longitude": 0.0003580141141463454,
 				"name": "LAB OFFICE",
-				"level": "First Floor",
-				"center:latitude": -3.2555091052914505e-05
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1751,10 +1483,8 @@
 		}, {
 			"properties": {
 				"number": "1B07",
-				"center:longitude": 0.00061110679993647084,
 				"name": "DRESS",
-				"level": "First Floor",
-				"center:latitude": -0.00018155997787148593
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1764,10 +1494,8 @@
 		}, {
 			"properties": {
 				"number": "1B08",
-				"center:longitude": 0.00035801411414634557,
 				"name": "CENT. STO.",
-				"level": "First Floor",
-				"center:latitude": -0.0001095261328548176
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1777,10 +1505,8 @@
 		}, {
 			"properties": {
 				"number": "1B09",
-				"center:longitude": 0.00055781946786471386,
 				"name": "DRESS",
-				"level": "First Floor",
-				"center:latitude": -0.00017556736716848689
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1790,10 +1516,8 @@
 		}, {
 			"properties": {
 				"number": "1B10",
-				"center:longitude": 0.00035222040837400154,
 				"name": "STAFF LOUNGE",
-				"level": "First Floor",
-				"center:latitude": -0.00018430553016105593
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1803,10 +1527,8 @@
 		}, {
 			"properties": {
 				"number": "1B11",
-				"center:longitude": 0.0004989229429432974,
 				"name": "STAFF TOILET",
-				"level": "First Floor",
-				"center:latitude": -0.00017810589595880166
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1816,10 +1538,8 @@
 		}, {
 			"properties": {
 				"number": "1B12",
-				"center:longitude": 0.00033229301272389811,
 				"name": "CLEAN SUP. & EQUIP.",
-				"level": "First Floor",
-				"center:latitude": -0.00024163775452393723
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1829,10 +1549,8 @@
 		}, {
 			"properties": {
 				"number": "1B13",
-				"center:longitude": 0.00076580244065344862,
 				"name": "RECEPTION",
-				"level": "First Floor",
-				"center:latitude": -0.00036533521789272545
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1842,10 +1560,8 @@
 		}, {
 			"properties": {
 				"number": "1B14",
-				"center:longitude": 0.00033229301272389821,
 				"name": "SOIL. UTL.",
-				"level": "First Floor",
-				"center:latitude": -0.00028169956932339599
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1855,10 +1571,8 @@
 		}, {
 			"properties": {
 				"number": "1B15",
-				"center:longitude": 0.00073126162152660338,
 				"name": "FILM VIEW",
-				"level": "First Floor",
-				"center:latitude": -0.00031175229611882482
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1868,10 +1582,8 @@
 		}, {
 			"properties": {
 				"number": "1B16",
-				"center:longitude": 0.00033229301272389843,
 				"name": "JAN. CL.",
-				"level": "First Floor",
-				"center:latitude": -0.00032244002057557148
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1881,10 +1593,8 @@
 		}, {
 			"properties": {
 				"number": "1B17",
-				"center:longitude": 0.00063634817409685153,
 				"name": "TECH. WORK ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00036533521789272567
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1894,10 +1604,8 @@
 		}, {
 			"properties": {
 				"number": "1B19",
-				"center:longitude": 0.00050335125308776252,
 				"name": "RADIOGRAPHIC ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00036533521789272583
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1907,10 +1615,8 @@
 		}, {
 			"properties": {
 				"number": "1B21",
-				"center:longitude": 0.00061376469207813898,
 				"name": "COMM. ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00048956444750469579
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1920,10 +1626,8 @@
 		}, {
 			"properties": {
 				"number": "1B23",
-				"center:longitude": 0.00049115909218415855,
 				"name": "ELEC. ROOM",
-				"level": "First Floor",
-				"center:latitude": -0.00048956444750469601
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1933,10 +1637,8 @@
 		}, {
 			"properties": {
 				"number": "1BS2",
-				"center:longitude": 0.00033229301272389897,
 				"name": "STAIR",
-				"level": "First Floor",
-				"center:latitude": -0.00043367917140459318
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1946,10 +1648,8 @@
 		}, {
 			"properties": {
 				"number": "1A16",
-				"center:longitude": 0.0012573227188016807,
 				"name": "PHARM. DISP.",
-				"level": "First Floor",
-				"center:latitude": -0.00030053464847120049
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1959,10 +1659,8 @@
 		}, {
 			"properties": {
 				"number": "1AS1",
-				"center:longitude": 0.0011721737157061943,
 				"name": "STAIR",
-				"level": "First Floor",
-				"center:latitude": -0.00049173431947548466
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1972,10 +1670,8 @@
 		}, {
 			"properties": {
 				"number": "1E15-A",
-				"center:longitude": 0.00042349110794244233,
 				"name": "GAS STORAGE",
-				"level": "First Floor",
-				"center:latitude": -0.0015275972479523792
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1985,10 +1681,8 @@
 		}, {
 			"properties": {
 				"number": "E1",
-				"center:longitude": 0.00078719560062445271,
 				"name": "ELEVATOR",
-				"level": "First Floor",
-				"center:latitude": -0.00048955263867764439
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {
@@ -1998,10 +1692,8 @@
 		}, {
 			"properties": {
 				"number": "1F01",
-				"center:longitude": -0.00014466789937168779,
 				"name": "MECH. YARD",
-				"level": "First Floor",
-				"center:latitude": -0.0010084944962656032
+				"level": "First Floor"
 			},
 			"type": "Feature",
 			"geometry": {

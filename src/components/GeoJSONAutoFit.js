@@ -20,9 +20,10 @@ export default class GeoJSONAutoFit extends Component {
 
     style(feature) {
 
+        
         const color = feature.properties.component/this.props.geojson.features.length*1.0;
         return {
-            fillColor: `#${Math.floor(color * 16777215).toString(16)}`,
+            fillColor: this.props.colormap[feature.properties.component],//colors[feature.properties.component],//`#${Math.floor(color * 16777215).toString(16)}`,
             weight: 0.5
         };
     };
