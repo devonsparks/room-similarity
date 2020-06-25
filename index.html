@@ -65,16 +65,16 @@
             We might assume that architectural function follows form - that the shape and size of spaces constrains
             their use. I can repurpose a spare bedroom to a home office, but might struggle to turn a hallway into a
             conference room. If we accept this assumption (at least within vernacular design),
-            then grouping building spaces by their geometric “similarity” provides a starting point to explore
+            then grouping building spaces by their geometric "similarity" provides a starting point to explore
             alternative programs.
         </p>
 
         <p>Below are floor plans for a typical office building and medical clinic, both taken from architectural models
             produced by the National Institute of Building Science. Below each floor plan is a slider that
-            controls the “similarity” tolerance between any two spaces. As you move the slider, notice how the colors of
+            controls the "similarity" tolerance between any two spaces. As you move the slider, notice how the colors of
             the spaces change. By monitoring how the groups change as you move the slider, you can identify collections
-            of similarly sized and shaped spaces. By mapping each color to an architectural function (”patient room”,
-            “meeting space”, “individual workspace”), you have the beginnings of a tool for rapidly exploring
+            of similarly sized and shaped spaces. By mapping each color to an architectural function ("patient room",
+            "meeting space", "individual workspace"), you have the beginnings of a tool for rapidly exploring
             architectural reprogramming. This may be especially useful in buildings that have limited as-built
             documentation, as the analysis relies only on room boundary geometry.
         </p>
@@ -128,11 +128,11 @@
             }
         </code></pre>
 
-        <p>In words: given a GeoJSON floor plan and a floating point “similarity threshold”, the algorithm:</p>
+        <p>In words: given a GeoJSON floor plan and a floating point "similarity threshold", the algorithm:</p>
 
 
         <ol>
-            <li>Generates a “room” object for each room boundary in the floor plan</li>
+            <li>Generates a "room" object for each room boundary in the floor plan</li>
 
             <li>Does some bookkeeping to set up a union-find partition over the set of rooms. It uses this later to
                 calculate unique groups.
@@ -140,7 +140,7 @@
 
             <li>For every pair of rooms, computes the <a
                     href="https://en.wikipedia.org/wiki/Hausdorff_distance">Hausdorff distance</a> between their
-                boundary points. Because the Hausdorff distance provides a metric for the “similarity” between two sets,
+                boundary points. Because the Hausdorff distance provides a metric for the "similarity" between two sets,
                 by letting the set elements be room boundary coordinates, we gain a similarity measure between room
                 boundaries.
             </li>
