@@ -1,12 +1,14 @@
 <title>Room Similarity Measure</title>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="">
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script type="text/javascript" id="MathJax-script" async=""
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 <style>
-
     .leaflet-container {
         height: 600px;
         width: 100%;
@@ -136,13 +138,15 @@
                 calculate unique groups.
             </li>
 
-            <li>For every pair of rooms, computes the <a href="https://en.wikipedia.org/wiki/Hausdorff_distance">Hausdorff distance</a> between their
+            <li>For every pair of rooms, computes the <a
+                    href="https://en.wikipedia.org/wiki/Hausdorff_distance">Hausdorff distance</a> between their
                 boundary points. Because the Hausdorff distance provides a metric for the “similarity” between two sets,
                 by letting the set elements be room boundary coordinates, we gain a similarity measure between room
                 boundaries.
             </li>
 
-            <li>If the Hausdorff distance is less than the provided threshold, the algorithm uses <a href="https://en.wikipedia.org/wiki/Disjoint-set_data_structure">union-find</a> to group pairs of
+            <li>If the Hausdorff distance is less than the provided threshold, the algorithm uses <a
+                    href="https://en.wikipedia.org/wiki/Disjoint-set_data_structure">union-find</a> to group pairs of
                 elements in constant time. The pairwise analysis of rooms has been sufficient for all testing
                 I’ve done to date, as most floor plans tested never included more than several hundred unique rooms.
             </li>
@@ -153,7 +157,8 @@
             </li>
         </ol>
 
-        <p>For the glory details, check out the <a href="https://github.com/devonsparks/room-similarit">Github repository</a>.</p>
+        <p>For the glory details, check out the <a href="https://github.com/devonsparks/room-similarit">Github
+                repository</a>.</p>
     </section>
 
 
@@ -173,12 +178,12 @@
             similarity metric. This means two rooms with the same shape and size but different orientations may be
             classified as distinct for a certain threshold range.</p>
 
-            <p>A simple (but inefficient) solution would take match pairs of room boundaries across a range of
-                transformations (e.g., rotation by 90 degrees) instead of the origin-normalized approach taken here. More
-                formally, for two room boundaries \(A = {\left \{ a_1, a_2, ..., a_n \right \}}\) and \(B = {\left \{ b_1,
-                b_2, ..., b_n \right \}}\), the original Hausdorff distance \(\delta(A, B) = \max_{a \in A}\min_{b \in B} ||
-                a - b ||\) becomes \(\delta{'}(A, B) = \min_{t \in T}\max_{a \in A}\min_{b \in B} || a - t(b) ||\) for all
-                listed transformations \(t \in T\).</p>
+        <p>A simple (but inefficient) solution would take match pairs of room boundaries across a range of
+            transformations (e.g., rotation by 90 degrees) instead of the origin-normalized approach taken here. More
+            formally, for two room boundaries \(A = {\left \{ a_1, a_2, ..., a_n \right \}}\) and \(B = {\left \{ b_1,
+            b_2, ..., b_n \right \}}\), the original Hausdorff distance \(\delta(A, B) = \max_{a \in A}\min_{b \in B} ||
+            a - b ||\) becomes \(\delta{'}(A, B) = \min_{t \in T}\max_{a \in A}\min_{b \in B} || a - t(b) ||\) for all
+            listed transformations \(t \in T\).</p>
     </section>
 
 
